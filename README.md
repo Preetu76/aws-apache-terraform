@@ -16,6 +16,20 @@ The infrastructure includes the following AWS resources:
 
 ## 🚀 Getting Started
 
+### Prerequisites
+- [Terraform](https://www.terraform.io/downloads.html) installed
+- AWS CLI configured with appropriate IAM permissions
+- A key pair in your AWS region for SSH access to EC2
+
+### Setup Instructions
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Preetu76/aws-apache-terraform.git
+   cd aws-apache-terraform
+
+
 ### 📋 Prerequisites
 - Terraform >= 1.0
 - AWS CLI configured with appropriate credentials
@@ -79,3 +93,7 @@ key_name      = "your-ec2-keypair"
 ## 📝 License
 
 This project is licensed under the [MIT License](LICENSE).
+=======
+# aws-apache-terraform
+Provisioning a publicly accessible EC2-based Apache web server on AWS using Terraform, including VPC, subnet, Internet Gateway, route table, security groups, ENI, and Elastic IP configuration.
+>>>>>>> 4526dd6919235e87164a5bc385b2a1ea7b2bb941
